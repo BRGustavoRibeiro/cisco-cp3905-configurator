@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
+using System.Xml;
 
 namespace CiscoCP3905Configurator
 {
@@ -416,5 +419,25 @@ namespace CiscoCP3905Configurator
         [Category("Capf List")]
         [DisplayName("Capf Auth Mode")]
         public string capfAuthMode { get; set; } = "0";
+
+        public Config() { }
+        
+        public Config(string phoneID)
+        {
+            string activeXML = File.ReadAllText(Application.StartupPath + @"\server\SEP" + @phoneID + @".cnf.xml");
+            Config config = readFile(activeXML);
+        }
+
+        public void CreatePhone(string phoneID, string template) { }
+
+        public void SaveChanges(string phoneID)
+        {
+
+        }
+
+        private Config readFile(string xml)
+        {
+            return null;
+        }
     }
 }

@@ -60,6 +60,7 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddNewPhoneForm.resx">
@@ -96,6 +97,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cisco.ico" />
+    <None Include="Resources\006-folder.png" />
+    <None Include="Resources\005-translate.png" />
+    <None Include="Resources\004-united-kingdom.png" />
+    <None Include="Resources\003-brazil.png" />
+    <None Include="Resources\002-lifebuoy.png" />
+    <None Include="Resources\001-satellite-dish.png" />
+    <None Include="Resources\floppy-disk.png" />
+    <None Include="Resources\003-floppy-disk.png" />
+    <None Include="Resources\001-remove.png" />
+    <None Include="Resources\002-plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
