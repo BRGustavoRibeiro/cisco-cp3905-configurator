@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associada a um assembly.
-[assembly: AssemblyTitle("CiscoCP3905Configurator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Cisco CP-3905 Configurator")]
+[assembly: AssemblyDescription("Simple config tool to setup Cisco CP-3905 phones.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CiscoCP3905Configurator")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCompany("Gustavo Ribeiro")]
+[assembly: AssemblyProduct("Cisco CP-3905 Configurator")]
+[assembly: AssemblyCopyright("Copyright © Gustavo Ribeiro 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // É possível especificar todos os valores ou usar como padrão os Números de Build e da Revisão
 // utilizando o "*" como mostrado abaixo:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.0.5.0")]
+[assembly: AssemblyFileVersion("0.0.5.0")]
