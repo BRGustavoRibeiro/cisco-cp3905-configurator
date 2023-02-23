@@ -1,9 +1,12 @@
+## DISCLAIMER / WARNING
+3 years ago, I've started this project, but my priorities changed and I'm quite sure that I won't be able to finish this software. During those years, I had thousands of ideas to continue this, but I simply didn't had the time to convert it to code.
+Thanks for supporting this project, and I hope you find some other easy way to set up your phone.
+
 # Cisco CP-3905 Configurator
 This is a simple project to create a Cisco CP-3905 simple and efficient configurator.
 **Please note that this is a WIP. We're still in early stages of development and its core features are still being created.**
 
 ## Why
-
 Setup a Cisco CP-3905 is a little hell experience. You need to choose between an outdated or a ads-based TFTP server, get the Cisco latest updates for your phone, config a giant XML file, config the phone, and start the server. Then you have to open ports, open Windows firewall.. And when you check it out, two hours of your precious life were thrown away. And your phone is still not working.
 
 ## How
